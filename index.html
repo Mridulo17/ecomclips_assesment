@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom PiP Mode for YouTube Video</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Styling for the PiP container */
+        .pip-container {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          width: 320px;
+          height: 180px;
+          background-color: white;
+          border: 1px solid #ccc;
+          z-index: 9999;
+          display: none; /* Initially hidden */
+        }
+    
+        /* Styling for the close button */
+        .pip-container .close-button {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          cursor: pointer;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container" style="display: flex;">
+                <a class="logo" href="#">Your Logo</a>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Custom PiP Mode for YouTube Video</h1>
+        <div class="video-container">
+            <!-- Replace 'YOUR_YOUTUBE_EMBED_CODE' with your YouTube video's embed code -->
+            <iframe id="mainFrame"  src="https://www.youtube.com/embed/7NWN3wivxhA"  width="560" height="315" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          </div>
+        
+          <div class="pip-container" id="pipContainer">
+            <div class="close-button" onclick="closePiP()">X</div>
+            <iframe src="https://www.youtube.com/embed/7NWN3wivxhA" id="pipVideo" width="320" height="180"  frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          </div>
+        <div>
+
+            
+          <p style="color: #fff">
+            At the core of Ecomclips, we are all eCommerce experts. We stay on the cutting edge of the 
+            eCommerce industry and share our insights with our network of Clients and Partners. 
+            Ecomclips is a company made up of talented, hardworking, passionate and fun-loving individuals. 
+            These driven youngsters will work tirelessly 
+            towards radically improving the Data Management process of your eCommerce Business and 
+            implementing Automation in its massively complex industry.
+            The goal of Ecomclips is to provide a Quality of Service that is not just the best, but legendary. 
+            We strive to provide clients with a premium quality and consistent experience. 
+            As we care about the success of our clients/partners and treat their business as if it was our own, 
+            we bring together experts in the eCommerce industry and introduce them to our clients. 
+            We value our relationships with the clients and partners and look for growth opportunities together. 
+            As we believe in long-term relationships, we want to help our clients grow their businesses with 
+            scientific and effective approaches while maintaining a very responsive communication. We like to
+             listen to our clients and we have learned a great deal by listening carefully to business people 
+             from many different parts of the world.
+
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iure molestiae modi, dolore minima aspernatur tempore nihil, necessitatibus, voluptatibus voluptas et reprehenderit unde omnis. Illo, quae aliquam molestiae animi culpa in nostrum reprehenderit inventore ab quo temporibus ullam. Officiis cumque eaque odit eum veniam nisi alias amet qui assumenda temporibus nobis debitis inventore voluptates, quisquam iusto, ad molestiae tenetur et illo dignissimos. Illo eos alias iste, nihil dolore sequi porro repudiandae eveniet ipsam beatae ipsa eligendi, atque quos. Nobis rem illo expedita, reprehenderit dolore temporibus hic officiis ea necessitatibus aliquam distinctio eos voluptates, nisi tempora id deserunt mollitia similique autem cum repellat tenetur earum, quam ad! Autem nemo iusto asperiores possimus, officia voluptatum amet ex omnis at optio quidem dolorum quisquam iste, repellendus nulla earum error? Aspernatur sint atque eum dicta numquam repellendus vel, expedita optio, tempora consequuntur ipsa non. Aliquam eius vel autem facilis obcaecati architecto eum, aut iste, explicabo expedita repudiandae numquam. Sint magnam veritatis dignissimos distinctio alias voluptatum natus nesciunt, ea, enim totam soluta ex ipsum eveniet quisquam. Inventore, modi iure veniam esse natus tempora voluptates voluptas eaque nisi distinctio sunt vitae explicabo. Quia, voluptatum perferendis quod magni sunt minima cupiditate animi, ab autem perspiciatis sint sed mollitia minus tempora modi tenetur earum assumenda amet error soluta exercitationem! Quidem natus aperiam officia quos ab, commodi mollitia et id amet in quia consequatur praesentium cupiditate suscipit consequuntur hic ea veritatis! Voluptas delectus amet saepe totam unde earum sunt quasi vero consectetur fugiat, modi deserunt necessitatibus harum natus, ipsum perferendis nisi iure? Officiis odit optio, sit assumenda eius ipsa iure maxime ullam illum quam veniam! Veniam minus aliquam praesentium laborum quae eos non sequi ducimus ipsum doloremque omnis id, velit atque commodi, sint odio dicta ad. Consequuntur iure ea animi. Nobis modi quisquam obcaecati sint neque pariatur quidem rem perferendis quibusdam corporis, beatae aliquid iusto reiciendis nihil culpa maiores fugiat dicta ad, id veniam quis recusandae sunt. Rem recusandae quaerat ad voluptate tempora sed nesciunt in iusto maxime. Accusamus numquam recusandae totam possimus, illum maxime amet ea ducimus repellat error inventore doloribus tempora repudiandae maiores fuga rem dicta itaque temporibus ratione dignissimos voluptatibus facilis tempore! Eius optio aliquid nobis reiciendis! Mollitia at impedit accusantium illo, ipsum quam voluptates omnis modi, temporibus doloremque cum ab quo. Unde, ipsam asperiores! Est optio laborum fugit officiis modi voluptatibus voluptates corrupti libero velit consequatur odit dolores autem rem sunt repudiandae aut eveniet repellat saepe vel architecto, voluptatem suscipit molestiae iste laboriosam! Ex dolorum animi suscipit molestiae blanditiis explicabo voluptate at omnis atque perspiciatis quam, illum qui reiciendis repellendus, natus commodi magnam laborum harum hic. Eum sed quas molestias provident? Obcaecati laboriosam quis accusamus saepe culpa corrupti asperiores. Voluptatem iusto exercitationem repellat animi doloribus minima quos asperiores officiis labore obcaecati ad, sint corporis aliquam impedit a illum est reprehenderit optio fugiat delectus voluptates necessitatibus laudantium? Saepe quo molestias eaque deserunt tempore unde id aspernatur omnis, officiis natus, eos voluptatibus quos fuga voluptate accusantium debitis ab! Nemo soluta dicta, debitis natus quia quae deleniti, nulla eligendi inventore eveniet, sint excepturi repudiandae asperiores! Autem corrupti voluptatum reiciendis, maxime sint, laborum beatae blanditiis necessitatibus dolorum debitis molestias sunt quam, reprehenderit suscipit tempore vitae? Quis amet at cumque modi possimus natus illo, corrupti neque iure minima eos, ut consectetur praesentium nulla quidem animi ab quasi sint. Dolorem iusto commodi, a sit vel quis blanditiis in exercitationem quidem incidunt veritatis quaerat? Accusantium alias cupiditate sunt reiciendis ratione eveniet aspernatur delectus numquam, ullam quaerat fuga eaque porro ex asperiores at commodi vitae consequuntur! Fugit, id facere maiores molestias rem laboriosam, fugiat et ratione magnam tenetur corrupti qui quo autem quas error fuga veritatis vero eveniet deleniti officia soluta excepturi cupiditate magni. Excepturi nesciunt obcaecati atque, vitae nihil cumque reiciendis molestiae pariatur molestias illo aut minus impedit quam earum, delectus quo repellat vero facilis itaque dicta quasi nostrum repudiandae? Itaque iusto eius ratione quidem placeat aperiam, ipsam modi optio, assumenda saepe ipsa repudiandae enim harum libero architecto. Odio aliquid voluptatum dignissimos laudantium eos, soluta repellendus nesciunt eligendi, molestias quis alias est, exercitationem sed tempora atque non minus consectetur nobis adipisci temporibus dolores iusto? Similique, commodi quidem eaque soluta veritatis adipisci velit consectetur cum quasi ad, earum tempora architecto magni sapiente reiciendis quibusdam placeat, dignissimos nisi nulla. Quia, soluta maiores debitis, harum quam officia rem voluptates fuga quibusdam minima ipsum, facere dolores. Expedita dolor perferendis ea, fugiat at totam fugit sapiente ipsum enim praesentium quos tenetur dolore culpa? Nam dolor impedit adipisci nihil fuga. Ea quae porro, reiciendis minima quam qui soluta harum, delectus asperiores praesentium, quaerat aperiam voluptatum? Soluta laborum consequatur facere, ipsam quidem odit magnam placeat qui impedit repellat ducimus, sapiente dolores nulla blanditiis culpa! Ullam, explicabo dolores consectetur dolorum optio ducimus repellat inventore tempore dolore quo debitis quod animi asperiores soluta autem quia reiciendis similique. Eum explicabo iusto quibusdam deleniti ipsum quaerat, debitis repellat deserunt id ea architecto molestias necessitatibus commodi unde. Libero totam excepturi dolorem tempora commodi modi vero hic inventore reprehenderit, facilis corrupti, blanditiis, ipsum beatae culpa tempore? Consequatur non asperiores ratione maiores necessitatibus earum. Quo reiciendis minima laboriosam magnam quaerat nihil nesciunt vel doloremque, rem voluptas aliquam quisquam? Enim, beatae provident. Perspiciatis dolorem doloremque placeat iusto aperiam id, natus nisi laboriosam, tenetur reiciendis suscipit accusantium porro non accusamus et nesciunt, est vero sit aliquam esse! Blanditiis aperiam maiores, eos autem dolore velit nesciunt possimus impedit quasi? Accusamus dicta eum esse repellendus. A inventore laudantium quod quas ut aut sunt maiores quaerat id, numquam et iste perspiciatis ipsa, deleniti voluptatem? Labore ut soluta deserunt. Iure odit consequatur eaque reprehenderit, officiis placeat nobis modi explicabo id harum voluptatem inventore, molestias voluptates in minus sed possimus excepturi aliquam ullam molestiae, doloribus neque obcaecati. Porro debitis eius provident voluptate iste tempore exercitationem? Nam explicabo doloribus obcaecati deserunt incidunt illo voluptatem voluptas nemo quisquam vero eligendi dolores expedita excepturi officiis quod aliquid, culpa ad voluptates dicta? Recusandae officia temporibus eveniet commodi, aut dolorem odit magni quae assumenda facere amet! Ullam vitae voluptate qui culpa deserunt fuga placeat nihil voluptates ab commodi?
+          </p>
+        </div>
+      </div>
+      <div class="pip">
+      </div>
+    
+
+    <footer>
+        <div class="container" style="display: flex;">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Your Logo</a>
+                </div>
+  
+            </div>
+            <p>&copy; 2023 Your Company Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
